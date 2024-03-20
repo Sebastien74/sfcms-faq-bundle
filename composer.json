@@ -5,8 +5,13 @@
     "config": {
         "slug": "faq",
         "title": "FAQ",
-        "roleTitle": "Gestion des FAQ",
         "cmd": "app:copy:bundle",
+        "roles": {
+            "ROLE_FAQ": {
+                "en": "FAQ management",
+                "fr": "Gestion des FAQ"
+            }
+        },
         "module": {
             "name": "FAQ",
             "description": "Module permettant de créer une ou plusieurs foires aux questions, dans lesquelles se trouveront des questions. Ces questions se composeront du titre de la question, et d'une réponse à la question sous format texte.",
@@ -48,8 +53,8 @@
         }
     ],
     "require": {
-        "php": ">=8.2.11",
-        "symfony/framework-bundle": "^6.4|^7.0"
+        "php": ">=8.3",
+        "symfony/framework-bundle": "^7.0"
     },
     "extra": {
         "branch-alias": {
