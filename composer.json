@@ -15,7 +15,7 @@
         "module": {
             "name": "FAQ",
             "description": "Module permettant de créer une ou plusieurs foires aux questions, dans lesquelles se trouveront des questions. Ces questions se composeront du titre de la question, et d'une réponse à la question sous format texte.",
-            "icon": "/medias/icons/fontawesome/light/question.svg"
+            "icon": "/medias/icons/light/question.svg"
         },
         "actions": [
             {
@@ -23,7 +23,7 @@
                 "controller": "App\\Controller\\Front\\Action\\FaqController",
                 "entity": "App\\Entity\\Module\\Faq\\Faq",
                 "action": "view",
-                "icon": "/medias/icons/fontawesome/light/question.svg",
+                "icon": "/medias/icons/light/question.svg",
                 "card": false,
                 "dropdown": true
             },
@@ -32,7 +32,7 @@
                 "controller": "App\\Controller\\Front\\Action\\FaqController",
                 "entity": "App\\Entity\\Module\\Faq\\Faq",
                 "action": "teaser",
-                "icon": "/medias/icons/fontawesome/light/question.svg",
+                "icon": "/medias/icons/light/question.svg",
                 "card": false,
                 "dropdown": true
             }
